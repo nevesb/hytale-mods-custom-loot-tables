@@ -1,0 +1,37 @@
+{
+  "Model": "NPC/Beast/Slime/Model/Model_Slime.blockymodel",
+  "Texture": "NPC/Beast/Slime/Model/Texture.png",
+  "EyeHeight": 1.5,
+  "CrouchOffset": -0.15,
+  "HitBox": {
+    "Max": { "X": 0.8, "Y": 2.0, "Z": 0.8 },
+    "Min": { "X": -0.8, "Y": 0, "Z": -0.8 }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": { "Max": 15, "Min": -15 },
+      "TargetNodes": ["Head"]
+    },
+    "Yaw": {
+      "AngleRange": { "Max": 15, "Min": -15 },
+      "TargetNodes": ["Head"]
+    }
+  },
+  "AnimationSets": {
+    "Walk": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Walk.blockyanim" }] },
+    "Attack": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Attack.blockyanim" }] },
+    "Idle": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Idle.blockyanim" }] },
+    "Death": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Death.blockyanim", "Loop": false }] },
+    "Walk_Backward": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Walk_Backward.blockyanim" }] },
+    "Run": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Run.blockyanim" }] },
+    "Crouch": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Crouch.blockyanim" }] },
+    "Crouch_Walk": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Crouch_Walk.blockyanim" }] },
+    "Crouch_Walk_Backward": { "Animations": [{ "Animation": "NPC/Beast/Slime/Animations/Default/Crouch_Walk_Backward.blockyanim" }] }
+  },
+  "Icon": "Icons/ModelsGenerated/Slime.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [0, -45, 0],
+    "Translation": [0, -61]
+  }
+}
